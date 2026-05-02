@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMINA | The Ultimate Fine Dining Experience</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <span class="luxury-text">LUMINA</span>
+            <div class="glow"></div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top luxury-nav">
+        <div class="container">
+            <a class="navbar-brand" href="#">LUMINA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#featured">Dishes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reservation">Booking</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-btns ms-lg-4">
+                    <a href="#reservation" class="btn btn-gold">Reserve Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section d-flex align-items-center">
+            <div class="hero-bg-overlay"></div>
+            <div class="container position-relative">
+                <div class="row">
+                    <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1200">
+                        <span class="hero-subtitle">Taste the Extraordinary</span>
+                        <h1 class="hero-title">Experience <span class="text-gradient">Culinary</span> Mastery</h1>
+                        <p class="hero-text">Welcome to Lumina, where every dish is a masterpiece and every moment is infused with luxury. Indulge in an atmosphere of sophistication and flavor.</p>
+                        <div class="hero-buttons">
+                            <a href="#menu" class="btn btn-gold btn-lg me-3">View Menu</a>
+                            <a href="#reservation" class="btn btn-outline-light btn-lg">Book Table</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section py-100">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+                        <div class="about-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=800" alt="Luxury Dining" class="img-fluid rounded-4 shadow-lg">
+                            <div class="about-img-badge">
+                                <span class="years">15+</span>
+                                <span class="text">Years of Excellence</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left">
+                        <div class="ps-lg-5">
+                            <span class="section-subtitle">Our Story</span>
+                            <h2 class="section-title">The Art of Fine <span class="text-gold">Dining</span></h2>
+                            <p class="section-text">Founded on the principles of elegance and innovation, Lumina has become a beacon for food connoisseurs globally. Our chefs combine traditional techniques with modern flair to create unforgettable experiences.</p>
+                            <ul class="luxury-list list-unstyled">
+                                <li><i class="fas fa-check-circle"></i> World-Class Master Chefs</li>
+                                <li><i class="fas fa-check-circle"></i> Locally Sourced Premium Ingredients</li>
+                                <li><i class="fas fa-check-circle"></i> Award-Winning Interior Design</li>
+                            </ul>
+                            <a href="#" class="btn btn-gold mt-4">Discover More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Dishes -->
+        <section id="featured" class="featured-section py-100 bg-dark-2">
+            <div class="container">
+                <div class="text-center mb-5" data-aos="fade-up">
+                    <span class="section-subtitle">Exquisite Selection</span>
+                    <h2 class="section-title">Chef's <span class="text-gold">Featured</span> Dishes</h2>
+                </div>
+                <div class="row g-4">
+                    <!-- Dish 1 -->
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="dish-card glass-morphism">
+                            <div class="dish-img">
+                                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=600" alt="Dish 1">
+                                <div class="dish-price">$45</div>
+                            </div>
+                            <div class="dish-info p-4">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h3 class="dish-name">Truffle Risotto</h3>
+                                    <div class="rating text-gold">
+                                        <i class="fas fa-star"></i> 4.9
+                                    </div>
+                                </div>
+                                <p class="dish-desc">Creamy Arborio rice with black winter truffles and aged Parmesan.</p>
+                                <button class="btn btn-outline-gold w-100">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dish 2 -->
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="dish-card glass-morphism">
+                            <div class="dish-img">
+                                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=600" alt="Dish 2">
+                                <div class="dish-price">$62</div>
+                            </div>
+                            <div class="dish-info p-4">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h3 class="dish-name">Prime Rib Eye</h3>
+                                    <div class="rating text-gold">
+                                        <i class="fas fa-star"></i> 5.0
+                                    </div>
+                                </div>
+                                <p class="dish-desc">Dry-aged steak served with garlic herb butter and roasted marrow.</p>
+                                <button class="btn btn-outline-gold w-100">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dish 3 -->
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="dish-card glass-morphism">
+                            <div class="dish-img">
+                                <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&q=80&w=600" alt="Dish 3">
+                                <div class="dish-price">$38</div>
+                            </div>
+                            <div class="dish-info p-4">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h3 class="dish-name">Atlantic Salmon</h3>
+                                    <div class="rating text-gold">
+                                        <i class="fas fa-star"></i> 4.8
+                                    </div>
+                                </div>
+                                <p class="dish-desc">Pan-seared salmon with lemon dill reduction and asparagus.</p>
+                                <button class="btn btn-outline-gold w-100">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section py-100">
+            <div class="container">
+                <div class="row g-4 text-center">
+                    <div class="col-md-3 col-6" data-aos="fade-up">
+                        <div class="stat-item">
+                            <i class="fas fa-users mb-3"></i>
+                            <h3 class="counter" data-target="50000">0</h3>
+                            <p>Happy Guests</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="stat-item">
+                            <i class="fas fa-utensils mb-3"></i>
+                            <h3 class="counter" data-target="120">0</h3>
+                            <p>Master Chefs</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="stat-item">
+                            <i class="fas fa-award mb-3"></i>
+                            <h3 class="counter" data-target="25">0</h3>
+                            <p>Awards Won</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="stat-item">
+                            <i class="fas fa-star mb-3"></i>
+                            <h3 class="counter" data-target="150">0</h3>
+                            <p>Daily Specials</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu-section py-100">
+            <div class="container">
+                <div class="text-center mb-5" data-aos="fade-up">
+                    <span class="section-subtitle">Our Specialties</span>
+                    <h2 class="section-title">The Lumina <span class="text-gold">Menu</span></h2>
+                </div>
+                
+                <div class="menu-filters mb-5 text-center" data-aos="fade-up">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="fastfood">Fast Food</button>
+                    <button class="filter-btn" data-filter="bbq">BBQ</button>
+                    <button class="filter-btn" data-filter="pizza">Pizza</button>
+                    <button class="filter-btn" data-filter="drinks">Drinks</button>
+                    <button class="filter-btn" data-filter="desserts">Desserts</button>
+                </div>
+
+                <div class="row g-4 menu-container">
+                    <!-- Menu Item 1 (Fast Food) -->
+                    <div class="col-lg-6 menu-item fastfood" data-aos="fade-up">
+                        <div class="menu-card d-flex align-items-center">
+                            <div class="menu-img">
+                                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=200" alt="Menu 1">
+                            </div>
+                            <div class="menu-details flex-grow-1 ms-4">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h4 class="menu-name">Luxury Angus Burger</h4>
+                                    <span class="menu-price">$24</span>
+                                </div>
+                                <p class="menu-desc">Wagyu beef, truffle aioli, gold-dusted bun.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Menu Item 2 (BBQ) -->
+                    <div class="col-lg-6 menu-item bbq" data-aos="fade-up" data-aos-delay="100">
+                        <div class="menu-card d-flex align-items-center">
+                            <div class="menu-img">
+                                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=200" alt="Menu 2">
+                            </div>
+                            <div class="menu-details flex-grow-1 ms-4">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h4 class="menu-name">Smoked Brisket</h4>
+                                    <span class="menu-price">$32</span>
+                                </div>
+                                <p class="menu-desc">12-hour slow-smoked premium beef brisket.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Menu Item 3 (Pizza) -->
+                    <div class="col-lg-6 menu-item pizza" data-aos="fade-up" data-aos-delay="200">
+                        <div class="menu-card d-flex align-items-center">
+                            <div class="menu-img">
+                                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=200" alt="Menu 3">
+                            </div>
+                            <div class="menu-details flex-grow-1 ms-4">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h4 class="menu-name">Truffle Pizza</h4>
+                                    <span class="menu-price">$28</span>
+                                </div>
+                                <p class="menu-desc">Wild mushrooms, truffle oil, fresh buffalo mozzarella.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Menu Item 4 (Drinks) -->
+                    <div class="col-lg-6 menu-item drinks" data-aos="fade-up" data-aos-delay="300">
+                        <div class="menu-card d-flex align-items-center">
+                            <div class="menu-img">
+                                <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=200" alt="Menu 4">
+                            </div>
+                            <div class="menu-details flex-grow-1 ms-4">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h4 class="menu-name">Gold Dust Martini</h4>
+                                    <span class="menu-price">$18</span>
+                                </div>
+                                <p class="menu-desc">Premium vodka, edible gold flakes, elderflower.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Menu Item 5 (Desserts) -->
+                    <div class="col-lg-6 menu-item desserts" data-aos="fade-up" data-aos-delay="400">
+                        <div class="menu-card d-flex align-items-center">
+                            <div class="menu-img">
+                                <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&q=80&w=200" alt="Menu 5">
+                            </div>
+                            <div class="menu-details flex-grow-1 ms-4">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h4 class="menu-name">Valrhona Soufflé</h4>
+                                    <span class="menu-price">$15</span>
+                                </div>
+                                <p class="menu-desc">Dark chocolate soufflé with Madagascar vanilla bean gelato.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chef Special Section -->
+        <section id="chef-special" class="chef-special py-100 bg-dark-2">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+                        <span class="section-subtitle">Chef's Signature</span>
+                        <h2 class="section-title">The Master's <span class="text-gold">Creation</span></h2>
+                        <div class="chef-special-card glass-morphism p-4 mt-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&q=80&w=100" alt="Chef" class="rounded-circle border border-gold me-3">
+                                <div>
+                                    <h5 class="mb-0">Chef Alessandro Rossi</h5>
+                                    <small class="text-gold">Executive Chef</small>
+                                </div>
+                            </div>
+                            <h3 class="mb-3">Seared A5 Wagyu</h3>
+                            <p class="mb-4">"This dish represents the pinnacle of my culinary journey. We source only the finest A5 Wagyu from Miyazaki, seared to perfection and served with a reduction of black garlic and vintage Port."</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price-tag h4 text-gold mb-0">$120</span>
+                                <button class="btn btn-gold">Pre-Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="zoom-in">
+                        <div class="special-img-wrapper position-relative">
+                            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=800" alt="Chef Special" class="img-fluid rounded-4 shadow-2-strong">
+                            <div class="glow-effect"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery-section py-100">
+            <div class="container">
+                <div class="text-center mb-5" data-aos="fade-up">
+                    <span class="section-subtitle">Visual Journey</span>
+                    <h2 class="section-title">The Lumina <span class="text-gold">Gallery</span></h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="gallery-item overflow-hidden rounded-4">
+                            <img src="https://images.unsplash.com/photo-1550966841-3ee71448744c?auto=format&fit=crop&q=80&w=600" alt="Gallery 1" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="gallery-item overflow-hidden rounded-4">
+                            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=600" alt="Gallery 2" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="gallery-item overflow-hidden rounded-4">
+                            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=600" alt="Gallery 3" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="team-section py-100 bg-dark-2">
+            <div class="container">
+                <div class="text-center mb-5" data-aos="fade-up">
+                    <span class="section-subtitle">The Artisans</span>
+                    <h2 class="section-title">Meet Our <span class="text-gold">Chefs</span></h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team-card glass-morphism p-4 text-center">
+                            <div class="team-img mb-4">
+                                <img src="chef.1.png" alt="Chef 1" class="rounded-circle">
+                            </div>
+                            <h5>Alessandro Rossi</h5>
+                            <p class="text-gold">Executive Chef</p>
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="team-card glass-morphism p-4 text-center">
+                            <div class="team-img mb-4">
+                                <img src="chef.2.png" alt="Chef 2" class="rounded-circle">
+                            </div>
+                            <h5>Elena Moretti</h5>
+                            <p class="text-gold">Pastry Chef</p>
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="team-card glass-morphism p-4 text-center">
+                            <div class="team-img mb-4">
+                                <img src="chef.3.png" alt="Chef 3" class="rounded-circle">
+                            </div>
+                            <h5>Julian Vane</h5>
+                            <p class="text-gold">Sous Chef</p>
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="team-card glass-morphism p-4 text-center">
+                            <div class="team-img mb-4">
+                                <img src="chef.4.png" alt="Chef 4" class="rounded-circle">
+                            </div>
+                            <h5>Sophia Chen</h5>
+                            <p class="text-gold">Sommelier</p>
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Special Offers Banner -->
+        <section class="offer-banner py-100">
+            <div class="container text-center" data-aos="zoom-in">
+                <div class="offer-content p-5 glass-morphism position-relative overflow-hidden">
+                    <div class="offer-bg-glow"></div>
+                    <span class="section-subtitle">Limited Time</span>
+                    <h2 class="section-title">Exclusive <span class="text-gold">VIP Membership</span></h2>
+                    <p class="lead mb-4">Join our elite circle for priority reservations, exclusive chef-table invites, and 20% off your first anniversary dinner.</p>
+                    <button class="btn btn-gold btn-lg">Claim Your Invite</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq-section py-100 bg-dark-2">
+            <div class="container">
+                <div class="text-center mb-5" data-aos="fade-up">
+                    <span class="section-subtitle">Inquiries</span>
+                    <h2 class="section-title">Frequently Asked <span class="text-gold">Questions</span></h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="accordion luxury-accordion" id="faqAccordion">
+                            <div class="accordion-item glass-morphism mb-3" data-aos="fade-up">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                        Do you have a dress code?
+                                    </button>
+                                </h2>
+                                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Yes, we maintain a business casual to formal dress code to ensure a premium atmosphere for all our guests.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item glass-morphism mb-3" data-aos="fade-up" data-aos-delay="100">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                        Do you accommodate dietary restrictions?
+                                    </button>
+                                </h2>
+                                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Absolutely. Please mention any allergies or dietary requirements when booking, and our chefs will prepare a bespoke experience for you.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section py-100 bg-dark-2 overflow-hidden">
+            <div class="container">
+                <div class="text-center mb-5" data-aos="fade-up">
+                    <span class="section-subtitle">Guest Experience</span>
+                    <h2 class="section-title">What They <span class="text-gold">Say</span></h2>
+                </div>
+                <div class="swiper testimonial-slider" data-aos="fade-up">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="testimonial-card glass-morphism p-5 text-center">
+                                <div class="quote-icon mb-4"><i class="fas fa-quote-right"></i></div>
+                                <p class="testimonial-text">"An absolute masterpiece of culinary art. The ambiance and service are unmatched. A truly five-star experience that stays with you."</p>
+                                <div class="client-info mt-4">
+                                    <h5 class="client-name">Eleanor Sterling</h5>
+                                    <span class="client-role">Food Critic</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <div class="testimonial-card glass-morphism p-5 text-center">
+                                <div class="quote-icon mb-4"><i class="fas fa-quote-right"></i></div>
+                                <p class="testimonial-text">"Lumina redefined my expectations for luxury dining. The truffle risotto was divine, and the staff's attention to detail was exceptional."</p>
+                                <div class="client-info mt-4">
+                                    <h5 class="client-name">Marcus Vane</h5>
+                                    <span class="client-role">Entrepreneur</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination mt-5"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reservation Section -->
+        <section id="reservation" class="reservation-section py-100">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right">
+                        <span class="section-subtitle">Reserve a Table</span>
+                        <h2 class="section-title">Secure Your <span class="text-gold">Experience</span></h2>
+                        <p class="section-text mb-4">Join us for an evening of luxury and flavor. Please fill out the form, and our concierge will contact you to confirm your reservation.</p>
+                        <div class="contact-info-list">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-box"><i class="fas fa-phone-alt"></i></div>
+                                <div class="ms-3">
+                                    <p class="mb-0">Call Us</p>
+                                    <h5>+1 (555) 123-4567</h5>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                                <div class="ms-3">
+                                    <p class="mb-0">Email Us</p>
+                                    <h5>concierge@lumina-dining.com</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7" data-aos="fade-left">
+                        <div class="reservation-form-wrapper glass-morphism p-5">
+                            <form id="booking-form">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control luxury-input" placeholder="Your Name" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="email" class="form-control luxury-input" placeholder="Email Address" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="date" class="form-control luxury-input" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <select class="form-select luxury-input" required>
+                                            <option value="" disabled selected>Number of Guests</option>
+                                            <option value="1">1 Person</option>
+                                            <option value="2">2 Persons</option>
+                                            <option value="3">3 Persons</option>
+                                            <option value="4+">4+ Persons</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea class="form-control luxury-input" rows="4" placeholder="Special Requests"></textarea>
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <button type="submit" class="btn btn-gold w-100 py-3">Book Now</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section py-100">
+            <div class="container">
+                <div class="text-center mb-5" data-aos="fade-up">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Visit Our <span class="text-gold">Sanctuary</span></h2>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-4" data-aos="fade-right">
+                        <div class="contact-card glass-morphism p-5 h-100">
+                            <h4 class="mb-4">Contact Details</h4>
+                            <div class="contact-item d-flex mb-4">
+                                <div class="icon-box-small me-3"><i class="fas fa-map-marker-alt"></i></div>
+                                <div>
+                                    <h5>Location</h5>
+                                    <p>123 Luxury Avenue, Penthouse Floor, New York, NY 10001</p>
+                                </div>
+                            </div>
+                            <div class="contact-item d-flex mb-4">
+                                <div class="icon-box-small me-3"><i class="fas fa-phone-alt"></i></div>
+                                <div>
+                                    <h5>Phone</h5>
+                                    <p>+1 (555) 123-4567</p>
+                                </div>
+                            </div>
+                            <div class="contact-item d-flex">
+                                <div class="icon-box-small me-3"><i class="fas fa-envelope"></i></div>
+                                <div>
+                                    <h5>Email</h5>
+                                    <p>concierge@lumina-dining.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8" data-aos="fade-left">
+                        <div class="map-wrapper rounded-4 overflow-hidden shadow-lg h-100" style="min-height: 400px;">
+                            <!-- Placeholder for Google Map -->
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.472227754387!2d-73.985428!3d40.748441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a145!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1683050000000!5m2!1sen!2sus" 
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer py-100">
+        <div class="container">
+            <div class="row g-5 mb-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-about">
+                        <a href="#" class="footer-logo mb-4 d-block">LUMINA</a>
+                        <p>Elevating the art of dining through innovation, passion, and an unwavering commitment to excellence. Experience the extraordinary at Lumina.</p>
+                        <div class="social-links mt-4">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="footer-links list-unstyled">
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">Our Story</a></li>
+                        <li><a href="#menu">The Menu</a></li>
+                        <li><a href="#chef-special">Chef's Special</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#reservation">Book Table</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Opening Hours</h5>
+                    <ul class="footer-hours list-unstyled">
+                        <li>Mon - Thu: 17:00 - 23:00</li>
+                        <li>Fri - Sat: 17:00 - 01:00</li>
+                        <li>Sun: 12:00 - 22:00</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Newsletter</h5>
+                    <p>Subscribe for exclusive event invitations and menu updates.</p>
+                    <form class="newsletter-form mt-4">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Email Address">
+                            <button class="btn btn-gold" type="button"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom pt-4 border-top text-center">
+                <p class="mb-0">&copy; 2026 Lumina Luxury Dining. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
